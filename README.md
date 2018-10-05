@@ -20,7 +20,7 @@ GG is an interactive dependency manager and debugger for Go.
 
 ## Install
 
-    go get github.com/uber/gg
+    go get github.com/kriskowal/gg
 
 ## Usage
 
