@@ -1,5 +1,29 @@
 generator: gg 1.0.0-pre
 imports:
+- name: github.com/BurntSushi/toml
+  root: github.com/BurntSushi/toml
+  repo: https://github.com/BurntSushi/toml.git
+  version: 3012a1dbe2e4bd1391d42b32f0577cb7bbc7f005
+  revision: 0.3.1
+  ref: tags/v0.3.1
+  time: 2018-08-15T03:47:33-07:00
+  noRequirements: true
+  commands:
+  - github.com/BurntSushi/toml/_examples
+  - github.com/BurntSushi/toml/cmd/toml-test-decoder
+  - github.com/BurntSushi/toml/cmd/toml-test-encoder
+  - github.com/BurntSushi/toml/cmd/tomlv
+  exports:
+  - github.com/BurntSushi/toml
+  imports:
+    github.com/BurntSushi/toml/_examples:
+    - github.com/BurntSushi/toml
+    github.com/BurntSushi/toml/cmd/toml-test-decoder:
+    - github.com/BurntSushi/toml
+    github.com/BurntSushi/toml/cmd/toml-test-encoder:
+    - github.com/BurntSushi/toml
+    github.com/BurntSushi/toml/cmd/tomlv:
+    - github.com/BurntSushi/toml
 - name: github.com/Masterminds/semver
   root: github.com/Masterminds/semver
   repo: https://github.com/Masterminds/semver.git
