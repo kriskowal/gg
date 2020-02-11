@@ -35,7 +35,7 @@
 // changelog.  From this we can generate a richer lockfile that caches all
 // of this metadata and load it all very quickly for later dependency
 // management tasks.
-package gg
+package main
 
 import (
 	"fmt"
